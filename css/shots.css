@@ -1,0 +1,427 @@
+/* Header: in common.css; */
+/* top invite banner */
+#invite-banner {
+	position: relative;
+	max-width: 805px;
+	height: 60px;
+	margin: 0 auto 0 auto;
+	padding: 0 12px 0 12px;
+	background: #E1E1E1;
+	font-size: 17px;
+	text-align: left;
+	padding-left: 150px;
+	color: #777;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#invite-banner strong {
+	vertical-align: baseline;
+	line-height: 3.5;
+	color: #333;
+}
+
+#invite-banner p {
+	font-weight: normal;
+}
+
+#invite-banner a {
+	text-decoration: none;
+}
+
+.make-up-button {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#learn-more-button {
+	position: relative;
+	font-size: 10px;
+	width: 80px;
+	height: 30px;
+	background: #ccc url(../img/glass.png) repeat-x 0 50%;
+	line-height: 2.6;
+	text-align: center;
+	margin-top: -45px;
+	margin-left: 510px;
+	cursor: pointer;
+}
+
+#learn-more-button a {
+	color: #666;
+	font-weight: bold;
+}
+
+#sign-in-button {
+	position: relative;
+	font-size: 10px;
+	width: 80px;
+	height: 30px;
+	background: #ea4c89 url(../img/glass.png) repeat-x 0 50%;
+	line-height: 2.6;
+	text-align: center;
+	margin-top: -30px;
+	margin-left: 600px;
+	cursor: pointer;
+}
+
+#sign-in-button a {
+	color: white;
+	font-weight: bold;
+	opacity: 1;
+}
+
+
+
+/* tabs' nav */
+.tabs li {
+	position: relative;
+	font-size: 1.4em;
+	float: left;
+	list-style: none;
+	line-height: 1;
+}
+
+.tabs {
+	max-width: 980px;
+	height: 50px;
+	margin: 0 auto 0 auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.tabs li a {
+	display: block;
+	height: 30px;
+	padding: 20px 10px 10px 10px;
+	text-decoration: none;
+	color: #999;
+}
+
+.tabs li a:hover {
+	text-decoration: none;
+	color: #777;
+}
+
+#term-popular {
+	color: #444;
+}
+
+
+/* pictures list */
+.dribbbles {
+	max-width: 1010px;
+	margin: 10px auto 10px auto;
+}
+
+.dribbbles li {
+	position: relative;
+	margin: 0 5px 10px 5px;
+	float: left;
+	list-style: none;
+}
+
+.dribbbles strong {
+	font-size: 1.2em;
+	color: black;
+}
+
+.comment {
+	color: black;
+}
+
+.dribbbles em {
+	font-weight: bold;
+	color: #777;
+	top: 20px;
+}
+
+.pic-over {
+	position: absolute;
+	top: 20px;
+	bottom: 30px;
+	left: 12px;
+	width: 90%;
+	height: 150px;
+	margin: 0;
+	padding: 20px;
+	font-size: 12px;
+	line-height: 1.4;
+	text-decoration: none;
+	color: #888;
+	background: #fff;
+	overflow: hidden;
+	z-index: 3;
+	opacity: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+
+.top-dribbble a:hover {
+	opacity: 0.94;
+}
+
+.group {
+	padding: 10px 10px;
+}
+
+.top-dribbble {
+	padding: 10px 10px;
+	background: white;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+
+.tools li {
+	float: right;
+	margin-left: 10px;
+	text-decoration: none;
+	color: #aaa;
+}
+
+.tools li a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+ul.tools li a:hover {
+	color: #777;
+}
+
+li.fav a {
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url(../img/touxiang/icon-hearts.png);
+}
+
+li.fav a:hover {
+	background-position: 0 -17px;
+}
+
+li.cmnt a {
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url(../img/touxiang/icon-comments.png);
+}
+li.cmnt a:hover {
+	background-position: 0 -16px;
+}
+
+ul.tools li.views {
+	margin-left: 0;
+	border-left: none;
+	padding-left: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	background-image: url(../img/touxiang/icon-views.png);
+}
+
+.tools {
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-image: url(../img/icon-attach.png);
+}
+
+.down-dribbble {
+	padding: 10px 0 0 10px;
+}
+
+.down-dribbble img {
+	max-height: 16px;
+	border: none;
+}
+
+.down-dribbble a {
+	text-decoration: none;
+	color: #4083a9;
+}
+
+.down-dribbble a:hover {
+	text-decoration: none;
+	color: #205f82;;
+}
+
+.pro {
+	padding: 1px 3px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1;
+	color: #fff;
+	background: #bbb;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+li h2 span.pro {
+	margin-left: 1px;
+	font-size: 9px;
+	line-height: 16px;
+	vertical-align: top;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+
+li:hover h2 span.pro {
+	opacity: 1;
+}
+
+a:hover span.pro {
+	background-color: #f83;
+}
+
+#next-button {
+	position: relative;
+	font-size: 17px;
+	width: 70px;
+	height: 30px;
+	color: #666;
+	padding: 5px 10px;
+	font-weight: bold;
+	background: #ccc url(../img/glass.png) repeat-x 0 50%;
+	line-height: 2.6;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 47%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.rss {
+	position: absolute;
+	right: 240px;
+	margin: 12px 10px 0 0;
+	padding: 0 0 0 15px;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ea4c89;
+	background: url(../img/touxiang/icon-rss.gif) no-repeat 0 0;
+}
+
+#next-button:hover {
+	background: #bbb url(../img/glass.png) repeat-x 0 50%;
+}
+
+.rss:hover {
+	color: #D8477F;
+	background: url(../img/touxiang/icon-rss.gif) no-repeat 0 100%;
+}
+
+
+
+/* secondary-invite-banner */
+.secondary-invite-banner {
+	position: relative;
+	width: 970px;
+	margin: 55px auto 0 auto;
+	left: 50%;
+	margin-left: -485px;
+	padding: 45px 0 0 0;
+	border-top: 2px solid #ddd;
+	text-decoration: none;
+	color: #777;
+}
+
+.secondary-invite-banner a {
+	text-decoration: none;
+}
+
+.secondary-invite-banner section {
+	position: relative;
+	width: 310px;
+	padding-left: 10px;
+	float: left;
+}
+
+.secondary-invite-banner section h3 a {
+	color: black;
+	padding: 0 13px 8px 0;
+	font-size: 1.2em;
+	background: url(../img/touxiang/icon-grey-arrow.png) no-repeat 100% 4px;
+}
+
+.secondary-invite-banner section h3 a span {
+	color: #777;
+}
+
+.secondary-invite-banner section h3 a:hover {
+	color: #4083a9;
+	background: url(../img/touxiang/icon-grey-arrow.png) no-repeat 100% 300%;
+}
+
+.equipment-content img {
+	float: left;
+	padding: 10px 10px; 
+	border: none;
+}
+
+.equipment-content p {
+	padding: 30px 10px 20px 12px;
+}
+
+.equipment-content strong a {
+	color: #4083a9;
+}
+
+.equipment-content strong a:hover {
+	color: #205f82;
+}
+
+.jobs-content p {
+	padding: 10px 0 5px 12px;
+}
+
+.jobs-content strong a {
+	color: #444;
+}
+
+.jobs-content strong a:hover {
+	color: #4083a9;
+}
+
+.for-jobs:hover {
+	color: #4083a9;
+}
+
+.ads-content img {
+	float: left;
+	padding: 10px 10px; 
+	border: none;
+}
+
+.ads-content p {
+	padding: 30px 10px 20px 12px;
+}
+
+.ads-content strong a {
+	color: #4083a9;
+}
+
+.ads-content strong a:hover {
+	color: #205f82;
+}
+
+/* footer CSS: in common.css */

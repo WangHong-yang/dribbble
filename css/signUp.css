@@ -1,0 +1,296 @@
+/* Header: in common.css; */
+#sign-up a{
+	color: white !important;
+}
+/* body CSS */
+#wraper {
+	height: 1300px;
+}
+
+#top-part {
+	width: 100%;
+	height: 183px;
+	background: #ea4c89;
+}
+
+#top-part-content {
+	position: relative;
+	max-width: 975px;
+	margin: 0 auto;
+	padding: 18px 0 60px 0;
+}
+
+#top-part-content section {
+	float: left;
+}
+
+#title {
+	width: 700px;
+}
+
+#title p {
+	font-size: 1.8em;
+	color: rgba(0,0,0,0.5);
+}
+
+#title h1 {
+	color: white;
+	font-size: 84px;
+	font-weight: bold;
+	line-height: 0.8;
+	letter-spacing: -3px;
+}
+
+.button {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#question-button {
+	width: 220px;
+	margin-top: 10px;
+	margin-left: 55px;
+	padding: 14px 0;
+	background: rgba(255,255,255,0.75) url(../img/glass.png) repeat-x 0 50%;
+}
+
+#question-button:hover {
+	cursor: pointer;
+	background: white;
+}
+
+#inner-button {
+	text-decoration: none;
+	text-align: center;
+}
+
+#inner-button strong {
+	font-size: 13px;
+	font-weight: bold;
+	color: rgba(0,0,0,0.7);
+	margin: 50px 0 0 70px ;
+}
+
+#inner-button p {
+	font-size: 12px;
+	color: rgba(0,0,0,0.4);
+}
+
+#bottom-part {
+	max-width: 970px;
+	margin: -56px auto 0 auto;
+}
+
+#bottom-left-part {
+	width: 680px;
+	margin-top: -56px auto 0 auto;
+	padding: 20px 30px 20px 30px;
+	background: white;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#title-second h2 {
+	font-size: 2.2em;
+	color: #444;
+}
+
+#title-second p {
+	font-size: 1.6em;
+	color: #777;
+	line-height: 1.5;
+	padding-bottom: 20px;
+}
+
+#button-info-bind {
+	width: 530px;
+	padding: 40px 0 40px 150px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#twitter-button {
+	padding: 12px 10px 12px 50px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.6em;
+	background: url(../img/icon-twitter-bird.png) no-repeat 12px 50%,url(../img/glass.png) repeat-x 0 50%;
+	background-color: #197ea7;
+	opacity: 0.9;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+	-o-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease;
+}
+
+#twitter-button:hover {
+	opacity: 1;
+}
+
+#button-info-bind p {
+	position: relative;
+	font-size: 1.7em;
+	margin-left: 210px;
+	margin-top: -20px;
+	color: #999;
+}
+
+#sign-up-methods form {
+	padding: 40px 50px 40px 50px;
+}
+
+#sign-up-methods form fieldset {
+	border: none;
+}
+
+.message {
+	margin: 1px 0 0 180px;
+	font-size: 11px;
+	line-height: 1.7em;
+	color: #999;
+}
+
+#sign-up-methods form input {
+	width: 385px;
+	height: 25px;
+	float: right;
+	padding: 5px 8px;
+	margin-left: 10px;
+	font-size: 2.1em;
+	color: #666;
+	border: none;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background: rgba(0,0,0,0.07);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.12);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.12);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.12);
+	-webkit-transition: background-color 0.2s ease;
+	-moz-transition: background-color 0.2s ease;
+	-o-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+	outline:none; 
+}
+
+#sign-up-methods form label {
+	font-size: 1.5em;
+	float: right;
+	padding: 8px 10px 0 0 ;
+}
+
+.form-list {
+	margin-bottom: 20px;
+}
+
+.form-btn a {
+	text-decoration: none;
+	padding: 8px 12px;
+	font-size: 1.3em;
+	margin-left: 220px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	border: none;
+	background: #ea4c89 url(../img/glass.png) repeat-x 0 50%;
+}
+
+.form-btn a:hover {
+	background: #D42B6C url(../img/glass.png) repeat-x 0 50%;
+}
+
+#join-benefits ul li {
+	list-style: none;
+	font-size: 1.5em;
+	margin: 30px 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+#join-benefits h2 {
+	margin: 20px 0 30px 0;
+	font-size: 22px;
+	font-weight: 500;
+	color: #444;
+}
+
+#join-benefits ul li h3 {
+	margin: 0 0 4px 48px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+}
+
+#join-benefits ul li img {
+	width: 32px;
+	float: left;
+	padding: 3px 2px;
+}
+
+#join-benefits ul li p {
+	margin: 0 10px 0 48px;
+	padding: 0;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #999;
+}
+
+#join-benefits ul li a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #4083a9;
+}
+
+#join-benefits ul li a:hover {
+	color: #205f82;
+}
+
+#last-list {
+	border-bottom: 0px !important;
+}
+
+#bottom-right-part {
+	position: relative;
+	width: 200px;
+	float: right;
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-top: -1010px;
+}
+
+#bottom-right-part h3{
+	margin: 0 0 15px 0;
+	padding: 0 0 8px 0;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+	border-bottom: 2px solid #ddd;
+}
+
+#bottom-right-part p {
+	color: #777;
+}
+
+#bottom-right-part a {
+	text-decoration: none;
+	color: #4083a9;
+}
+
+#bottom-right-part a:hover {
+	color: #205f82;
+}
+
+#second-para {
+	margin-top: 20px;
+}
+/* footer CSS: in common.css */
